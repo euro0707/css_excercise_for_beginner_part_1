@@ -3,10 +3,10 @@
  * - Webページ全体の背景色を#ccccccにしてください
  * - margin: 0 auto; を使うことでWebページを中央に持ってくることが出来ます。
  */
-* {
-width:760px;
-background-color:#cccccc;
-margin:0 auto;
+body {
+  width: 760px;
+  background-color:#cccccc;
+  margin: 0 auto;
 }
 
 
@@ -19,10 +19,10 @@ margin:0 auto;
  * - 5pxの赤い枠線をつけてください (枠線は点線にする)
  */
  h2 {
-     color: #ff0000;
-     text-align: center;
-     background-color:#FFFF00;
-     border: 5px dashed #ff0000;
+  color: #ff0000;
+  text-align: center;
+  background-color:#ffff00;
+  border: 5px dashed #ff0000;
  }
 
 /**
@@ -41,7 +41,7 @@ ul {
  * - 要素の下に20pxのマージンをつくってください
  */
  .container {
-     margin-bottom: 20px;
+  margin-bottom: 20px;
  }
 
 
@@ -50,8 +50,8 @@ ul {
  *
  * - 文字を太字にしてください
  */
-bold {
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
 
 /**
@@ -61,6 +61,6 @@ bold {
  * - 文字色を#aa0000にする
  */
 #important {
-    font-size: 30px;
-    color: #aa0000;
+  font-size: 30px;
+  color: #aa0000;
 }
